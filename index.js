@@ -9,52 +9,50 @@ function promptUser() {
     {
       type: "input",
       name: "Title",
-      message: "What i?"
+      message: "What is the title of your project?"
     },
     {
       type: "input",
       name: "Description",
-      message: "Where are you from?"
-    },
-    {
-      type: "input",
-      name: "Table of Contents",
-      message: "What is your favorite hobby?"
+      message: "Describe your project:"
     },
     {
       type: "input",
       name: "Installation",
-      message: "What is your favorite food?"
+      message: "What are the installation steps for your project?"
     },
     {
       type: "input",
       name: "Usage",
-      message: "Enter your GitHub Username"
+      message: "Please provide instructions & examples for this application in use:"
     },
     {
       type: "input",
       name: "Licensing",
-      message: "Enter your LinkedIn URL."
-    },
-    {
-        type: "input",
-        name: "Licensing",
-        message: "Enter your LinkedIn URL."
+      message: "Please select your license:",
+      choices: [
+
+      ]
     },
     {
         type: "input",
         name: "Contribution",
-        message: "Enter your LinkedIn URL."
+        message: "Please include any contributors to your project:"
     },
     {
         type: "input",
         name: "Test",
-        message: "Enter your LinkedIn URL."
+        message: "Please describe the tests for your application:"
     },
     {
         type: "input",
-        name: "Questions",
-        message: "Enter your LinkedIn URL."
+        name: "githubUsername",
+        message: "Please enter your GitHub username."
+      },
+      {
+        type: "input",
+        name: "emailAddress",
+        message: "Please provide your email address:"
       }
   ]);
 }
