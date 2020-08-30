@@ -29,10 +29,7 @@ function promptUser() {
     {
       type: "input",
       name: "Licensing",
-      message: "Please select your license:",
-      choices: [
-
-      ]
+      message: "What is the license?"
     },
     {
         type: "input",
