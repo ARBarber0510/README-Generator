@@ -41,11 +41,6 @@ const questions = [
         message: "Please describe the tests for your application:"
     },
     {
-      type: "input",
-      name: "questions",
-      message: "Please describe the tests for your application:"
-    },
-    {
         type: "input",
         name: "githubUsername",
         message: "Please enter your GitHub username."
@@ -84,8 +79,9 @@ const questions = [
 ## Tests
     ${answers.test}
 
-##
-    
+## Questions
+    Please visit [https://github.com/${answers.githubUsername}](https://github.com/${answers.githubUsername}) for more information.
+    Any additional questions may be sent to [${answers.emailAddress}](${answers.emailAddress})
     `
   }
 
