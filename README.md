@@ -14,12 +14,15 @@
   
 ## Installation
     * Clone the repo from GitHub to your local machine
-    * Use the terminal to make the cloned repo your current directory
     * Run npm install in terminal
+    * Clone the repo from GitHub to your local machine
+
+## Usage
+    
 
 ## Licensing
-    MIT 
-    https://opensource.org/licenses/MIT 
+     MIT 
+     https://opensource.org/licenses/MIT
 
 ## Contributors
     https://github.com/ARBarber0510
