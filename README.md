@@ -18,7 +18,13 @@
     * Clone the repo from GitHub to your local machine
 
 ## Usage
-    
+### App Usage in Command Line
+![app-usage-img](assets/readme-gen-2.PNG)
+  
+### App Generated README
+![generated-readme-1](assets/readme-gen-1.PNG)
+![generated-readme-2](assets/readme-gen-3.PNG)
+
 
 ## Licensing
      MIT 
