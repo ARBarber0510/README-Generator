@@ -13,7 +13,9 @@
   * [Questions](#questions)
   
 ## Installation
-    Screenshots and explanation
+    * Clone the repo from GitHub to your local machine
+    * Use the terminal to make the cloned repo your current directory
+    * Run npm install in terminal
 
 ## Licensing
     MIT 
