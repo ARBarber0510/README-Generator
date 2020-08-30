@@ -70,6 +70,9 @@ const questions = [
 ## Installation
     ${answers.installation}
 
+## Usage
+    ${answers.usage}
+
 ## Licensing
     ${answers.licensing}
 
