@@ -60,12 +60,12 @@ const questions = [
   ${answers.description}
 
 ## Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributers
-  * Tests
-  * Questions
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licensing](#licensing)
+  * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
 ## Installation
     ${answers.installation}
