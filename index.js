@@ -4,41 +4,40 @@ const util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-function promptUser() {
-  return inquirer.prompt([
+const questions = [
     {
       type: "input",
-      name: "Title",
+      name: "title",
       message: "What is the title of your project?"
     },
     {
       type: "input",
-      name: "Description",
+      name: "description",
       message: "Describe your project:"
     },
     {
       type: "input",
-      name: "Installation",
+      name: "installation",
       message: "What are the installation steps for your project?"
     },
     {
       type: "input",
-      name: "Usage",
+      name: "usage",
       message: "Please provide instructions & examples for this application in use:"
     },
     {
       type: "input",
-      name: "Licensing",
+      name: "licensing",
       message: "What is the license?"
     },
     {
         type: "input",
-        name: "Contribution",
+        name: "contribution",
         message: "Please include any contributors to your project:"
     },
     {
         type: "input",
-        name: "Test",
+        name: "test",
         message: "Please describe the tests for your application:"
     },
     {
@@ -51,5 +50,40 @@ function promptUser() {
         name: "emailAddress",
         message: "Please provide your email address:"
       }
-  ]);
-}
+  ];
+
+  function generateMD(answers) {
+    return `
+# ${answers.title}
+
+## Description
+  ${answers.description}
+
+## Table of Contents
+  * Installation
+  * Usage
+  * License
+  * Contributers
+  * Tests
+  * Questions
+  
+## 
+
+    
+    `
+  }
+
+  inquirer
+  .prompt(questions)
+  .then(function(answers) {
+    const md = generateMD(answers);
+
+    return writeFileAsync("README.md", md);
+    // console.log(answers);
+  })
+  .then(function() {
+    console.log("Successfully wrote to index.html");
+  })
+  .catch(function(err) {
+    console.log(err);
+  });
