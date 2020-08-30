@@ -41,6 +41,11 @@ const questions = [
         message: "Please describe the tests for your application:"
     },
     {
+      type: "input",
+      name: "questions",
+      message: "Please describe the tests for your application:"
+    },
+    {
         type: "input",
         name: "githubUsername",
         message: "Please enter your GitHub username."
@@ -67,8 +72,19 @@ const questions = [
   * Tests
   * Questions
   
-## 
+## Installation
+    ${answers.installation}
 
+## Licensing
+    ${answers.licensing}
+
+## Contributors
+    ${answers.contribution}
+
+## Tests
+    ${answers.test}
+
+##
     
     `
   }
