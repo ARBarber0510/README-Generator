@@ -4,6 +4,13 @@
 ## Description
 When creating an open source project on GitHub, it is important to have a strong README with information about the app. This command line application is designed to create a quick and easy generation of a project README. This allows a project creator to focus more time on the finished project and less on creating a quality README.
 
+### App Usage in Command Line
+![app-usage-img](assets/working-app-example.gif)
+  
+### App Generated README
+![generated-readme-1](assets/readme-gen-1.PNG)
+![generated-readme-2](assets/readme-gen-3.PNG)
+
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -15,15 +22,12 @@ When creating an open source project on GitHub, it is important to have a strong
 ## Installation
 * Clone the repo from GitHub to your local machine
 * Run npm install in terminal
-* Run node index.js
 
 ## Usage
-### App Usage in Command Line
-![app-usage-img](assets/working-app-example.gif)
-  
-### App Generated README
-![generated-readme-1](assets/readme-gen-1.PNG)
-![generated-readme-2](assets/readme-gen-3.PNG)
+* To use README generator, run [node index.js] in terminal.
+* Answer the series of questions regarding your project.
+  ** Note: Each question will appear one at a time as the previous inquiry is answered.
+* Once the questions are completed, the app will generate a README file with the your project information. 
 
 
 ## Licensing
