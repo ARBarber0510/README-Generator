@@ -19,7 +19,7 @@
 
 ## Usage
 ### App Usage in Command Line
-![app-usage-img](assets/readme-gen-2.PNG)
+![app-usage-img](assets/working-app-example.gif)
   
 ### App Generated README
 ![generated-readme-1](assets/readme-gen-1.PNG)
