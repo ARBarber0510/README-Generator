@@ -27,14 +27,14 @@
 
 
 ## Licensing
-     MIT 
-     https://opensource.org/licenses/MIT
+MIT 
+https://opensource.org/licenses/MIT
 
 ## Contributors
-    https://github.com/ARBarber0510
+https://github.com/ARBarber0510
 
 ## Tests
-    Video of app process
+![video-of-working-app](https://drive.google.com/file/d/1VyhBwT2HkbOAXhM9Eky7y3PcyfMJi4Gq/view?usp=sharing)
 
 ## Questions
     Please visit [https://github.com/ARBarber0510](https://github.com/ARBarber0510) for more information.
