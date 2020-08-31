@@ -34,7 +34,7 @@ https://opensource.org/licenses/MIT
 https://github.com/ARBarber0510
 
 ## Tests
-[video-of-working-app](https://drive.google.com/file/d/1VyhBwT2HkbOAXhM9Eky7y3PcyfMJi4Gq/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1VyhBwT2HkbOAXhM9Eky7y3PcyfMJi4Gq/view?usp=sharing) of working app. 
 
 ## Questions
 Please visit [ARBarber0510](https://github.com/ARBarber0510) for more information.
