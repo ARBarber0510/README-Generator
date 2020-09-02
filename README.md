@@ -39,6 +39,6 @@ https://github.com/ARBarber0510
 [Video](https://drive.google.com/file/d/1VyhBwT2HkbOAXhM9Eky7y3PcyfMJi4Gq/view?usp=sharing) of testing the app.
 
 ## Questions
-Please visit [https://github.com/ARBarber0510](ARBarber0510) for more information.
+Please visit [ARBarber0510](https://github.com/ARBarber0510) for more information.
 Any additional questions may be sent to [arbarber.ab@gmail.com](arbarber.ab@gmail.com)
     
