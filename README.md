@@ -25,7 +25,8 @@
 
 ## Usage
 * To use README generator, run [node index.js] in terminal.
-* Answer the series of questions regarding your project. **     **Note: Each question will appear one at a time as the previous inquiry is answered.
+* Answer the series of questions regarding your project. 
+  **Note: Each question will appear one at a time as the previous inquiry is answered.
 * Once the questions are completed, the app will generate a README file with the your project information.
 
 ## Licensing
